@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Candidates List</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+    <style>
+      .headerFont{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 24px;
+      }
+
+      .subFont{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        
+      }
+      
+      .specialHead{
+        font-family: 'Oswald', sans-serif;
+      }
+
+      .normalFont{
+        font-family: 'Roboto Condensed', sans-serif;
+      }
+      cen {text-align: center;}
+    </style>
+  </head>
+  <body>
+	
+	<div class="container">
+  	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse
+    " role="navigation">
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand headerFont text-lg"><strong>Uttarakhand MATDAAN E-Voting 2022</strong></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="example-nav-collapse">
+          <ul class="nav navbar-nav">
+          </ul>
+          
+
+          <span class="normalFont"><a href="admin.html" class="btn btn-success navbar-right navbar-btn"><strong>Admin Panel</strong></a></span>
+        </div>
+
+      </div> <!-- end of container -->
+    </nav>
+
+    <div class="container" style="padding:100px;">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="data:image/jpeg;base64,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" class="img img-thumbnail" style="width:200px;height:200px;" alt="">
+          <h4 class="normalFont text-center">Pushkar Singh Dhami</h4>
+          <h5 class="normalFont text-center">Current Chief Minister of Uttarakhand from BJP</h5>
+          <hr>
+        </div>
+        <div class="col-sm-3">
+          <img src="images/hrawat.jpg" class="img img-thumbnail" style="width:200px;height:200px;" alt="">
+          <h4 class="normalFont text-center">Harish Rawat</h4>
+          <h5 class="normalFont text-center">Former Chief Minister of Uttarakhand from Congress.</h5>
+            <hr>  
+          </h5>
+        </div>
+        <div class="col-sm-3">
+          <img src="images/kejriwal.jpg" class="img img-thumbnail" style="width:200px;height:200px;" alt="">
+          <h4 class="normalFont text-center">Arvind Kejriwal</h4>
+          <h5 class="text-center normalFont">Founder of Aam Admi Party and Current Chief Minister of New Delhi</h5>
+          <hr>
+        </div>
+        <div class="col-sm-3">
+          <img src="images/maywati.jpg" class="img img-thumbnail" style="width:200px;height:200px;" alt="">
+          <h4 class="normalFont text-center">Mayawati</h4>
+          <h5 class="normalFont text-center">From Bahujan Samaj Party.</h5>
+          <hr>
+        </div>
+      </div>
+    </div>
+    
+    <cen><u><h1><a href="index.html">Back to Home</a></h1></u></cen>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
